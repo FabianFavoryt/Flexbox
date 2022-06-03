@@ -1,0 +1,48 @@
+body {background-color: coral;}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .item {
+    width: 19%;
+    height: 150px;
+    background-color: lightblue;
+    border-color: black;
+    border-style: ridge;
+  }
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 13%;
+}
+.text{
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 1%;
+}
+.selecteditem{
+  width: 16%;
+  height: 150px;
+  background-color: aquamarine;
+  border-color: black;
+  border-style: groove
+}
+
+.footer {
+  position: fixed;
+          padding: 10px 10px 0px 10px;
+          bottom: 0;
+          width: 100%;
+          height: 40px;
+          background-color:lightblue; }
+
+.align{
+    display:flex ;
+    justify-content: center;
+    padding-top: 200px;
+    width: 100%;
+  
+}
